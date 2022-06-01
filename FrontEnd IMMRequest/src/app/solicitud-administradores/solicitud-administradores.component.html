@@ -1,0 +1,62 @@
+<mat-card>
+    <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+            <!-- Position Column -->
+            <ng-container matColumnDef="id" >
+            <mat-header-cell *matHeaderCellDef> Id </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.id}} </mat-cell>
+            </ng-container>
+
+            <!-- Name Column -->
+            <ng-container matColumnDef="email">
+            <mat-header-cell *matHeaderCellDef> Email </mat-header-cell>
+            <mat-cell *matCellDef="let element"(click)="selectedSolicitud(element)"  > {{element.mail}} </mat-cell>
+            </ng-container>
+            
+
+            <!-- Name Column -->
+            <ng-container matColumnDef="nombre">
+                <mat-header-cell *matHeaderCellDef> Nombre </mat-header-cell>
+                <mat-cell *matCellDef="let element" (click)="selectedSolicitud(element)" > {{element.nombre}} </mat-cell>
+            </ng-container>
+            
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="estado">
+            <mat-header-cell *matHeaderCellDef> Estado </mat-header-cell>
+            <mat-cell *matCellDef="let element"(click)="selectedSolicitud(element)" > {{element.estado}} </mat-cell>
+        </ng-container>
+        
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="descripcion">
+            <mat-header-cell *matHeaderCellDef> Descripcion </mat-header-cell>
+            <mat-cell *matCellDef="let element"(click)="selectedSolicitud(element)"  > {{element.descripcion}} </mat-cell>
+        </ng-container>
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+  <br>
+  <div class="modificador" *ngIf="display">
+    <mat-card>
+        <h4>Id: {{selectedSol.id}}</h4>
+        <h4>Nombre: {{selectedSol.nombre}}</h4>
+        <br>
+        <mat-form-field>
+            <mat-label>Nuevo Estado</mat-label>
+            <br>
+            <mat-select [(value)]="selectedEstado">
+                <mat-option *ngFor="let estado of estados" [value]="estado">
+                    {{estado}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+            <input matInput placeholder="Descripcion" [(ngModel)]="descripcionNueva">
+        </mat-form-field>
+        <br>
+        <button mat-raised-button color="primary" (click)="modificarSolicitud()">Modificar</button>
+    </mat-card>
+
+  </div>
+</mat-card>

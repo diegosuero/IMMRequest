@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "15cZuRMxvphl/mXwglt6wE2kgQu1vpnDK0y4A9r1FWIrLrC82FA5R3Zc1vidszivcHnco9MZgzlh6HUCFy3ShA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.BusinessLogic\\IMMRequest.BusinessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,38 @@
+<div class="Importador">
+    <mat-card>
+        <mat-card-content>
+            <div class="">
+              <mat-form-field><input matInput placeholder="Ruta de archivo a exportar" [(ngModel)]="ruta" ></mat-form-field>
+              
+              <div class="seleccion">
+                <mat-form-field>
+                    <mat-label>Que Importo?</mat-label>
+                    <br>
+                    <mat-select [(value)]="aImportar">
+                        <mat-option *ngFor="let estado of ['Areas','Temas','Tipos']" [value]="aImportar">
+                            {{estado}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+              </div>
+              <br>
+              <mat-form-field>
+                <mat-label>Lista de Importadores?</mat-label>
+                <br>
+                <mat-select [(value)]="Importador">
+                <mat-option *ngFor="let estado of importadores" [value]="Importador">
+                    {{estado}}
+                </mat-option>
+            </mat-select>
+              </mat-form-field>
+              
+            </div>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-raised-button color="primary" (click)="importar()">Importar</button>
+        </mat-card-actions>
+    </mat-card>
+</div>
+
+
+ 

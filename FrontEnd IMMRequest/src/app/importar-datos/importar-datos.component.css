@@ -1,0 +1,15 @@
+.Importador{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.seleccion{
+    display: flex;
+    justify-content:right;
+    width: 100%;
+}
+
+button{
+    width: 100%;
+}

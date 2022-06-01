@@ -1,0 +1,8 @@
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.BusinessLogic.Interface\bin\Release\netstandard2.0\IMMRequest.BusinessLogic.Interface.deps.json
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.BusinessLogic.Interface\bin\Release\netstandard2.0\IMMRequest.BusinessLogic.Interface.dll
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.BusinessLogic.Interface\bin\Release\netstandard2.0\IMMRequest.BusinessLogic.Interface.pdb
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.BusinessLogic.Interface\obj\Release\netstandard2.0\IMMRequest.BusinessLogic.Interface.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.BusinessLogic.Interface\obj\Release\netstandard2.0\IMMRequest.BusinessLogic.Interface.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.BusinessLogic.Interface\obj\Release\netstandard2.0\IMMRequest.BusinessLogic.Interface.AssemblyInfo.cs
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.BusinessLogic.Interface\obj\Release\netstandard2.0\IMMRequest.BusinessLogic.Interface.dll
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.BusinessLogic.Interface\obj\Release\netstandard2.0\IMMRequest.BusinessLogic.Interface.pdb

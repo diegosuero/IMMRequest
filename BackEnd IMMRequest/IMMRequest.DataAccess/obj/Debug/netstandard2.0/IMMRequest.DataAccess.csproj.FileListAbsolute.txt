@@ -1,0 +1,14 @@
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\bin\Debug\netstandard2.0\IMMRequest.DataAccess.deps.json
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\bin\Debug\netstandard2.0\IMMRequest.DataAccess.dll
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\bin\Debug\netstandard2.0\IMMRequest.DataAccess.pdb
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\bin\Debug\netstandard2.0\IMMRequest.DataAccess.Interface.dll
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\bin\Debug\netstandard2.0\IMMRequest.Domain.dll
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\bin\Debug\netstandard2.0\IMMRequest.Domain.pdb
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\bin\Debug\netstandard2.0\IMMRequest.DataAccess.Interface.pdb
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\obj\Debug\netstandard2.0\IMMRequest.DataAccess.csprojAssemblyReference.cache
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\obj\Debug\netstandard2.0\IMMRequest.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\obj\Debug\netstandard2.0\IMMRequest.DataAccess.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\obj\Debug\netstandard2.0\IMMRequest.DataAccess.AssemblyInfo.cs
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\obj\Debug\netstandard2.0\IMMRequest.DataAccess.csproj.CopyComplete
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\obj\Debug\netstandard2.0\IMMRequest.DataAccess.dll
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\IMMRequest.DataAccess\obj\Debug\netstandard2.0\IMMRequest.DataAccess.pdb

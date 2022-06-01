@@ -1,0 +1,18 @@
+<mat-card class="example-card">
+    <mat-card-header>
+        <mat-card-title>Login</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="example-container">
+        <mat-form-field>
+          <input matInput (keyup)="onKeyMail($event)" placeholder="Email" [(ngModel)]="Mail">
+        </mat-form-field>
+        <mat-form-field>
+            <input type="password" matInput (keyup)="onKeyPassword($event)" placeholder="Password" [(ngModel)]="Password">
+          </mat-form-field>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="addLogin()">Login</button>
+    </mat-card-actions>
+  </mat-card>

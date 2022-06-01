@@ -1,0 +1,4576 @@
+{
+  "IMMRequest.DataAccess.dll": {
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\AdministradorRepository.cs": {
+      "IMMRequest.DataAccess.AdministradorRepository": {
+        "Microsoft.EntityFrameworkCore.DbContext IMMRequest.DataAccess.AdministradorRepository::get_Context()": {
+          "Lines": {
+            "12": 35
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.AdministradorRepository::Add(IMMRequest.Domain.Administrador)": {
+          "Lines": {
+            "19": 4,
+            "20": 4,
+            "21": 4
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.AdministradorRepository::Remove(IMMRequest.Domain.Administrador)": {
+          "Lines": {
+            "24": 2,
+            "25": 2,
+            "26": 2,
+            "27": 1,
+            "28": 3,
+            "29": 1,
+            "31": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.AdministradorRepository::Update(IMMRequest.Domain.Administrador)": {
+          "Lines": {
+            "34": 2,
+            "35": 2,
+            "36": 2,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "42": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<IMMRequest.Domain.Administrador> IMMRequest.DataAccess.AdministradorRepository::GetAll()": {
+          "Lines": {
+            "45": 3,
+            "46": 3,
+            "47": 3
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.Administrador IMMRequest.DataAccess.AdministradorRepository::Get(System.Int32)": {
+          "Lines": {
+            "50": 7,
+            "51": 7,
+            "52": 7,
+            "53": 7,
+            "54": 6,
+            "55": 3,
+            "57": 4
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.Administrador IMMRequest.DataAccess.AdministradorRepository::GetByString(System.String)": {
+          "Lines": {
+            "60": 2,
+            "61": 2,
+            "62": 2,
+            "63": 2,
+            "64": 2,
+            "65": 1,
+            "67": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.AdministradorRepository::Save()": {
+          "Lines": {
+            "70": 7,
+            "71": 7,
+            "72": 7
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.AdministradorRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "13": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\AreaRepository.cs": {
+      "IMMRequest.DataAccess.AreaRepository": {
+        "Microsoft.EntityFrameworkCore.DbContext IMMRequest.DataAccess.AreaRepository::get_Context()": {
+          "Lines": {
+            "12": 33
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.Area IMMRequest.DataAccess.AreaRepository::Get(System.Int32)": {
+          "Lines": {
+            "19": 7,
+            "20": 7,
+            "21": 7,
+            "22": 7,
+            "23": 6,
+            "24": 3,
+            "27": 4
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<IMMRequest.Domain.Area> IMMRequest.DataAccess.AreaRepository::GetAll()": {
+          "Lines": {
+            "29": 3,
+            "30": 3,
+            "31": 3
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.Area IMMRequest.DataAccess.AreaRepository::GetByString(System.String)": {
+          "Lines": {
+            "34": 2,
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "38": 2,
+            "39": 1,
+            "41": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.AreaRepository::Add(IMMRequest.Domain.Area)": {
+          "Lines": {
+            "44": 3,
+            "45": 3,
+            "46": 3
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.AreaRepository::Remove(IMMRequest.Domain.Area)": {
+          "Lines": {
+            "49": 2,
+            "50": 2,
+            "51": 2,
+            "52": 1,
+            "53": 3,
+            "54": 1,
+            "56": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.AreaRepository::Update(IMMRequest.Domain.Area)": {
+          "Lines": {
+            "59": 2,
+            "60": 2,
+            "61": 2,
+            "62": 1,
+            "63": 1,
+            "64": 1,
+            "67": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.AreaRepository::Save()": {
+          "Lines": {
+            "70": 6,
+            "71": 6,
+            "72": 6
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.AreaRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "13": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\CampoAdicionalBooleanoRepository.cs": {
+      "IMMRequest.DataAccess.CampoAdicionalBooleanoRepository": {
+        "Microsoft.EntityFrameworkCore.DbContext IMMRequest.DataAccess.CampoAdicionalBooleanoRepository::get_Context()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalBooleanoRepository::Add(IMMRequest.Domain.CampoAdicionalBooleano)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalBooleanoRepository::Remove(IMMRequest.Domain.CampoAdicionalBooleano)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalBooleanoRepository::Update(IMMRequest.Domain.CampoAdicionalBooleano)": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "43": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<IMMRequest.Domain.CampoAdicionalBooleano> IMMRequest.DataAccess.CampoAdicionalBooleanoRepository::GetAll()": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.CampoAdicionalBooleano IMMRequest.DataAccess.CampoAdicionalBooleanoRepository::Get(System.Int32)": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.CampoAdicionalBooleano IMMRequest.DataAccess.CampoAdicionalBooleanoRepository::GetByString(System.String)": {
+          "Lines": {
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "68": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalBooleanoRepository::Save()": {
+          "Lines": {
+            "71": 0,
+            "72": 0,
+            "73": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalBooleanoRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\CampoAdicionalEnteroRepository.cs": {
+      "IMMRequest.DataAccess.CampoAdicionalEnteroRepository": {
+        "Microsoft.EntityFrameworkCore.DbContext IMMRequest.DataAccess.CampoAdicionalEnteroRepository::get_Context()": {
+          "Lines": {
+            "13": 33
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalEnteroRepository::Add(IMMRequest.Domain.CampoAdicionalEntero)": {
+          "Lines": {
+            "20": 3,
+            "21": 3,
+            "22": 3
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalEnteroRepository::Remove(IMMRequest.Domain.CampoAdicionalEntero)": {
+          "Lines": {
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 1,
+            "29": 3,
+            "30": 1,
+            "32": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalEnteroRepository::Update(IMMRequest.Domain.CampoAdicionalEntero)": {
+          "Lines": {
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "43": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<IMMRequest.Domain.CampoAdicionalEntero> IMMRequest.DataAccess.CampoAdicionalEnteroRepository::GetAll()": {
+          "Lines": {
+            "46": 3,
+            "47": 3,
+            "48": 3
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.CampoAdicionalEntero IMMRequest.DataAccess.CampoAdicionalEnteroRepository::Get(System.Int32)": {
+          "Lines": {
+            "51": 7,
+            "52": 7,
+            "53": 7,
+            "54": 7,
+            "55": 6,
+            "56": 3,
+            "58": 4
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.CampoAdicionalEntero IMMRequest.DataAccess.CampoAdicionalEnteroRepository::GetByString(System.String)": {
+          "Lines": {
+            "61": 2,
+            "62": 2,
+            "63": 2,
+            "64": 2,
+            "65": 2,
+            "66": 1,
+            "68": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalEnteroRepository::Save()": {
+          "Lines": {
+            "71": 6,
+            "72": 6,
+            "73": 6
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalEnteroRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\CampoAdicionalFechaRepository.cs": {
+      "IMMRequest.DataAccess.CampoAdicionalFechaRepository": {
+        "Microsoft.EntityFrameworkCore.DbContext IMMRequest.DataAccess.CampoAdicionalFechaRepository::get_Context()": {
+          "Lines": {
+            "13": 33
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalFechaRepository::Add(IMMRequest.Domain.CampoAdicionalFecha)": {
+          "Lines": {
+            "20": 3,
+            "21": 3,
+            "22": 3
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalFechaRepository::Remove(IMMRequest.Domain.CampoAdicionalFecha)": {
+          "Lines": {
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 1,
+            "29": 3,
+            "30": 1,
+            "32": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalFechaRepository::Update(IMMRequest.Domain.CampoAdicionalFecha)": {
+          "Lines": {
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "43": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<IMMRequest.Domain.CampoAdicionalFecha> IMMRequest.DataAccess.CampoAdicionalFechaRepository::GetAll()": {
+          "Lines": {
+            "46": 3,
+            "47": 3,
+            "48": 3
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.CampoAdicionalFecha IMMRequest.DataAccess.CampoAdicionalFechaRepository::Get(System.Int32)": {
+          "Lines": {
+            "51": 7,
+            "52": 7,
+            "53": 7,
+            "54": 7,
+            "55": 6,
+            "56": 3,
+            "58": 4
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.CampoAdicionalFecha IMMRequest.DataAccess.CampoAdicionalFechaRepository::GetByString(System.String)": {
+          "Lines": {
+            "61": 2,
+            "62": 2,
+            "63": 2,
+            "64": 2,
+            "65": 2,
+            "66": 1,
+            "68": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalFechaRepository::Save()": {
+          "Lines": {
+            "71": 6,
+            "72": 6,
+            "73": 6
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalFechaRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "14": 10,
+            "15": 10,
+            "16": 10,
+            "17": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\CampoAdicionalTextoRepository copy.cs": {
+      "IMMRequest.DataAccess.CampoAdicionalTextoRepository": {
+        "Microsoft.EntityFrameworkCore.DbContext IMMRequest.DataAccess.CampoAdicionalTextoRepository::get_Context()": {
+          "Lines": {
+            "13": 34
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalTextoRepository::Add(IMMRequest.Domain.CampoAicionalTexto)": {
+          "Lines": {
+            "20": 3,
+            "21": 3,
+            "22": 3
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalTextoRepository::Remove(IMMRequest.Domain.CampoAicionalTexto)": {
+          "Lines": {
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 1,
+            "29": 3,
+            "30": 1,
+            "32": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalTextoRepository::Update(IMMRequest.Domain.CampoAicionalTexto)": {
+          "Lines": {
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "43": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<IMMRequest.Domain.CampoAicionalTexto> IMMRequest.DataAccess.CampoAdicionalTextoRepository::GetAll()": {
+          "Lines": {
+            "46": 3,
+            "47": 3,
+            "48": 3
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.CampoAicionalTexto IMMRequest.DataAccess.CampoAdicionalTextoRepository::Get(System.Int32)": {
+          "Lines": {
+            "51": 7,
+            "52": 7,
+            "53": 7,
+            "54": 7,
+            "55": 6,
+            "56": 3,
+            "58": 4
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.CampoAicionalTexto IMMRequest.DataAccess.CampoAdicionalTextoRepository::GetByString(System.String)": {
+          "Lines": {
+            "61": 2,
+            "62": 2,
+            "63": 2,
+            "64": 2,
+            "65": 2,
+            "66": 1,
+            "68": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalTextoRepository::Save()": {
+          "Lines": {
+            "71": 6,
+            "72": 6,
+            "73": 6
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.CampoAdicionalTextoRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "14": 11,
+            "15": 11,
+            "16": 11,
+            "17": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\ContextFactory.cs": {
+      "IMMRequest.DataAccess.ContextFactory": {
+        "IMMRequest.DataAccess.IMMRequestContext IMMRequest.DataAccess.ContextFactory::GetMemoryContext(System.String)": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbContextOptions IMMRequest.DataAccess.ContextFactory::GetMemoryConfig(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder,System.String)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        },
+        "IMMRequest.DataAccess.IMMRequestContext IMMRequest.DataAccess.ContextFactory::GetSqlContext()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbContextOptions IMMRequest.DataAccess.ContextFactory::GetSqlConfig(Microsoft.EntityFrameworkCore.DbContextOptionsBuilder)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\IMMRequestContext.cs": {
+      "IMMRequest.DataAccess.IMMRequestContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<IMMRequest.Domain.Area> IMMRequest.DataAccess.IMMRequestContext::get_Areas()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<IMMRequest.Domain.Administrador> IMMRequest.DataAccess.IMMRequestContext::get_Administradores()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<IMMRequest.Domain.Solicitud> IMMRequest.DataAccess.IMMRequestContext::get_Solicitudes()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<IMMRequest.Domain.CampoAdicionalEntero> IMMRequest.DataAccess.IMMRequestContext::get_CampoAdicionalesEntero()": {
+          "Lines": {
+            "16": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<IMMRequest.Domain.CampoAdicionalFecha> IMMRequest.DataAccess.IMMRequestContext::get_CampoAdicionalesFecha()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<IMMRequest.Domain.CampoAicionalTexto> IMMRequest.DataAccess.IMMRequestContext::get_CampoAdicionalesTexto()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<IMMRequest.Domain.AdminSession> IMMRequest.DataAccess.IMMRequestContext::get_Sessions()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.IMMRequestContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions)": {
+          "Lines": {
+            "24": 91,
+            "25": 91,
+            "27": 91
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\SessionsRepository.cs": {
+      "IMMRequest.DataAccess.SessionsRepository": {
+        "Microsoft.EntityFrameworkCore.DbContext IMMRequest.DataAccess.SessionsRepository::get_Context()": {
+          "Lines": {
+            "12": 31
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.SessionsRepository::Add(IMMRequest.Domain.AdminSession)": {
+          "Lines": {
+            "19": 2,
+            "20": 2,
+            "21": 2
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.AdminSession IMMRequest.DataAccess.SessionsRepository::Get(System.Int32)": {
+          "Lines": {
+            "24": 7,
+            "25": 7,
+            "26": 7,
+            "27": 7,
+            "28": 6,
+            "29": 3,
+            "31": 4
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<IMMRequest.Domain.AdminSession> IMMRequest.DataAccess.SessionsRepository::GetAll()": {
+          "Lines": {
+            "34": 3,
+            "35": 3,
+            "36": 3
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.AdminSession IMMRequest.DataAccess.SessionsRepository::GetByString(System.String)": {
+          "Lines": {
+            "39": 2,
+            "40": 2,
+            "41": 2,
+            "42": 2,
+            "43": 2,
+            "44": 2,
+            "45": 1,
+            "47": 1
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.AdminSession IMMRequest.DataAccess.SessionsRepository::GetByEmail(System.String)": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.SessionsRepository::Remove(IMMRequest.Domain.AdminSession)": {
+          "Lines": {
+            "62": 2,
+            "63": 2,
+            "64": 2,
+            "65": 1,
+            "66": 3,
+            "67": 1,
+            "69": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.SessionsRepository::Save()": {
+          "Lines": {
+            "72": 5,
+            "73": 5,
+            "74": 5
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.SessionsRepository::Update(IMMRequest.Domain.AdminSession)": {
+          "Lines": {
+            "77": 2,
+            "78": 2,
+            "79": 2,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "85": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.SessionsRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "13": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\SolicitudRepository.cs": {
+      "IMMRequest.DataAccess.SolicitudRepository": {
+        "Microsoft.EntityFrameworkCore.DbContext IMMRequest.DataAccess.SolicitudRepository::get_Context()": {
+          "Lines": {
+            "12": 33
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.Solicitud IMMRequest.DataAccess.SolicitudRepository::Get(System.Int32)": {
+          "Lines": {
+            "19": 7,
+            "20": 7,
+            "21": 7,
+            "22": 7,
+            "23": 6,
+            "24": 3,
+            "27": 4
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<IMMRequest.Domain.Solicitud> IMMRequest.DataAccess.SolicitudRepository::GetAll()": {
+          "Lines": {
+            "29": 3,
+            "30": 3,
+            "31": 3
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.Solicitud IMMRequest.DataAccess.SolicitudRepository::GetByString(System.String)": {
+          "Lines": {
+            "34": 2,
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "38": 2,
+            "39": 1,
+            "41": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.SolicitudRepository::Add(IMMRequest.Domain.Solicitud)": {
+          "Lines": {
+            "44": 3,
+            "45": 3,
+            "46": 3
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.SolicitudRepository::Remove(IMMRequest.Domain.Solicitud)": {
+          "Lines": {
+            "49": 2,
+            "50": 2,
+            "51": 2,
+            "52": 1,
+            "53": 3,
+            "54": 1,
+            "56": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.SolicitudRepository::Update(IMMRequest.Domain.Solicitud)": {
+          "Lines": {
+            "59": 2,
+            "60": 2,
+            "61": 2,
+            "62": 1,
+            "63": 1,
+            "64": 1,
+            "67": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.SolicitudRepository::Save()": {
+          "Lines": {
+            "70": 6,
+            "71": 6,
+            "72": 6
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.SolicitudRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "13": 10,
+            "14": 10,
+            "15": 10,
+            "16": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\TemaRepository.cs": {
+      "IMMRequest.DataAccess.TemaRepository": {
+        "Microsoft.EntityFrameworkCore.DbContext IMMRequest.DataAccess.TemaRepository::get_Context()": {
+          "Lines": {
+            "12": 35
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.TemaRepository::Add(IMMRequest.Domain.Tema)": {
+          "Lines": {
+            "20": 4,
+            "21": 4,
+            "22": 4
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.TemaRepository::Remove(IMMRequest.Domain.Tema)": {
+          "Lines": {
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 1,
+            "29": 3,
+            "30": 1,
+            "32": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.TemaRepository::Update(IMMRequest.Domain.Tema)": {
+          "Lines": {
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "43": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<IMMRequest.Domain.Tema> IMMRequest.DataAccess.TemaRepository::GetAll()": {
+          "Lines": {
+            "46": 3,
+            "47": 3,
+            "48": 3
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.Tema IMMRequest.DataAccess.TemaRepository::Get(System.Int32)": {
+          "Lines": {
+            "51": 7,
+            "52": 7,
+            "53": 7,
+            "54": 7,
+            "55": 6,
+            "56": 3,
+            "58": 4
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.Tema IMMRequest.DataAccess.TemaRepository::GetByString(System.String)": {
+          "Lines": {
+            "61": 2,
+            "62": 2,
+            "63": 2,
+            "64": 2,
+            "65": 2,
+            "66": 1,
+            "68": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.TemaRepository::Save()": {
+          "Lines": {
+            "71": 7,
+            "72": 7,
+            "73": 7
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.TemaRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "13": 10,
+            "14": 10,
+            "15": 10,
+            "17": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\TipoRepository.cs": {
+      "IMMRequest.DataAccess.TipoRepository": {
+        "Microsoft.EntityFrameworkCore.DbContext IMMRequest.DataAccess.TipoRepository::get_Context()": {
+          "Lines": {
+            "12": 35
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.TipoDeTema IMMRequest.DataAccess.TipoRepository::Get(System.Int32)": {
+          "Lines": {
+            "20": 7,
+            "21": 7,
+            "22": 7,
+            "23": 7,
+            "24": 6,
+            "25": 3,
+            "28": 4
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<IMMRequest.Domain.TipoDeTema> IMMRequest.DataAccess.TipoRepository::GetAll()": {
+          "Lines": {
+            "30": 3,
+            "31": 3,
+            "32": 3
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.TipoDeTema IMMRequest.DataAccess.TipoRepository::GetByString(System.String)": {
+          "Lines": {
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "38": 2,
+            "39": 2,
+            "40": 1,
+            "42": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.TipoRepository::Add(IMMRequest.Domain.TipoDeTema)": {
+          "Lines": {
+            "45": 4,
+            "46": 4,
+            "47": 4
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.TipoRepository::Remove(IMMRequest.Domain.TipoDeTema)": {
+          "Lines": {
+            "50": 2,
+            "51": 2,
+            "52": 2,
+            "53": 1,
+            "54": 3,
+            "55": 1,
+            "57": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.TipoRepository::Update(IMMRequest.Domain.TipoDeTema)": {
+          "Lines": {
+            "60": 2,
+            "61": 2,
+            "62": 2,
+            "63": 1,
+            "64": 1,
+            "65": 1,
+            "68": 1
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.TipoRepository::Save()": {
+          "Lines": {
+            "71": 7,
+            "72": 7,
+            "73": 7
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.TipoRepository::.ctor(Microsoft.EntityFrameworkCore.DbContext)": {
+          "Lines": {
+            "13": 10,
+            "14": 10,
+            "15": 10,
+            "17": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\Migrations\\20200424232034_Creacion.cs": {
+      "IMMRequest.DataAccess.Migrations.Creacion": {
+        "System.Void IMMRequest.DataAccess.Migrations.Creacion::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.Migrations.Creacion::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "211": 0,
+            "212": 0,
+            "214": 0,
+            "215": 0,
+            "217": 0,
+            "218": 0,
+            "220": 0,
+            "221": 0,
+            "223": 0,
+            "224": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\Migrations\\20200424232034_Creacion.Designer.cs": {
+      "IMMRequest.DataAccess.Migrations.Creacion": {
+        "System.Void IMMRequest.DataAccess.Migrations.Creacion::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "267": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\Migrations\\20200507182614_updateDB1.cs": {
+      "IMMRequest.DataAccess.Migrations.updateDB1": {
+        "System.Void IMMRequest.DataAccess.Migrations.updateDB1::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "8": 0,
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.Migrations.updateDB1::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "13": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\Migrations\\20200507182614_updateDB1.Designer.cs": {
+      "IMMRequest.DataAccess.Migrations.updateDB1": {
+        "System.Void IMMRequest.DataAccess.Migrations.updateDB1::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "267": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\Migrations\\20200507193437_updateDB2.cs": {
+      "IMMRequest.DataAccess.Migrations.updateDB2": {
+        "System.Void IMMRequest.DataAccess.Migrations.updateDB2::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.Migrations.updateDB2::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\Migrations\\20200507193437_updateDB2.Designer.cs": {
+      "IMMRequest.DataAccess.Migrations.updateDB2": {
+        "System.Void IMMRequest.DataAccess.Migrations.updateDB2::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "270": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\Migrations\\20200513004650_AgregarValor.cs": {
+      "IMMRequest.DataAccess.Migrations.AgregarValor": {
+        "System.Void IMMRequest.DataAccess.Migrations.AgregarValor::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.Migrations.AgregarValor::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\Migrations\\20200513004650_AgregarValor.Designer.cs": {
+      "IMMRequest.DataAccess.Migrations.AgregarValor": {
+        "System.Void IMMRequest.DataAccess.Migrations.AgregarValor::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "274": 0,
+            "275": 0,
+            "276": 0,
+            "277": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "282": 0,
+            "283": 0,
+            "284": 0,
+            "286": 0,
+            "287": 0,
+            "288": 0,
+            "289": 0,
+            "290": 0,
+            "291": 0,
+            "293": 0,
+            "294": 0,
+            "295": 0,
+            "296": 0,
+            "297": 0,
+            "298": 0,
+            "300": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\Migrations\\20200619020956_migracion.cs": {
+      "IMMRequest.DataAccess.Migrations.migracion": {
+        "System.Void IMMRequest.DataAccess.Migrations.migracion::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.DataAccess.Migrations.migracion::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\Migrations\\20200619020956_migracion.Designer.cs": {
+      "IMMRequest.DataAccess.Migrations.migracion": {
+        "System.Void IMMRequest.DataAccess.Migrations.migracion::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "267": 0,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "274": 0,
+            "275": 0,
+            "276": 0,
+            "277": 0,
+            "278": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "282": 0,
+            "284": 0,
+            "285": 0,
+            "286": 0,
+            "287": 0,
+            "288": 0,
+            "289": 0,
+            "291": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0,
+            "295": 0,
+            "296": 0,
+            "298": 0,
+            "299": 0,
+            "300": 0,
+            "301": 0,
+            "302": 0,
+            "303": 0,
+            "304": 0,
+            "305": 0,
+            "306": 0,
+            "307": 0,
+            "309": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.DataAccess\\Migrations\\IMMRequestContextModelSnapshot.cs": {
+      "IMMRequest.DataAccess.Migrations.IMMRequestContextModelSnapshot": {
+        "System.Void IMMRequest.DataAccess.Migrations.IMMRequestContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "267": 0,
+            "268": 0,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "274": 0,
+            "275": 0,
+            "276": 0,
+            "277": 0,
+            "278": 0,
+            "279": 0,
+            "280": 0,
+            "282": 0,
+            "283": 0,
+            "284": 0,
+            "285": 0,
+            "286": 0,
+            "287": 0,
+            "289": 0,
+            "290": 0,
+            "291": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0,
+            "296": 0,
+            "297": 0,
+            "298": 0,
+            "299": 0,
+            "300": 0,
+            "301": 0,
+            "302": 0,
+            "303": 0,
+            "304": 0,
+            "305": 0,
+            "307": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "IMMRequest.DataAccess.Interface.dll": {},
+  "IMMRequest.Domain.dll": {
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\Administrador.cs": {
+      "IMMRequest.Domain.Administrador": {
+        "System.Int32 IMMRequest.Domain.Administrador::get_Id()": {
+          "Lines": {
+            "18": 18
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Administrador::get_Nombre()": {
+          "Lines": {
+            "19": 17
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Administrador::get_Email()": {
+          "Lines": {
+            "21": 15
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Administrador::get_Contrasena()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.Administrador::CambiarContrasena(System.String)": {
+          "Lines": {
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean IMMRequest.Domain.Administrador::validarEmail(System.String)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 12,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 54,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 74,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 85,
+              "EndOffset": 87,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 128,
+              "EndOffset": 130,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 128,
+              "EndOffset": 136,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 85,
+              "EndOffset": 137,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 74,
+              "EndOffset": 138,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 30,
+              "EndOffset": 139,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean IMMRequest.Domain.Administrador::esValido()": {
+          "Lines": {
+            "44": 0,
+            "45": 0,
+            "46": 0
+          },
+          "Branches": [
+            {
+              "Line": 45,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 31,
+              "EndOffset": 33,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 13,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 31,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void IMMRequest.Domain.Administrador::Update(IMMRequest.Domain.Administrador)": {
+          "Lines": {
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Administrador::ToString()": {
+          "Lines": {
+            "54": 0,
+            "55": 0,
+            "56": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.Administrador::.ctor()": {
+          "Lines": {
+            "7": 14,
+            "8": 14,
+            "9": 14
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.Administrador::.ctor(System.String,System.String,System.String)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\AdminSession.cs": {
+      "IMMRequest.Domain.AdminSession": {
+        "System.Int32 IMMRequest.Domain.AdminSession::get_Id()": {
+          "Lines": {
+            "7": 12
+          },
+          "Branches": []
+        },
+        "System.Int32 IMMRequest.Domain.AdminSession::get_Token()": {
+          "Lines": {
+            "8": 12
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.Administrador IMMRequest.Domain.AdminSession::get_admin()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.AdminSession::.ctor()": {
+          "Lines": {
+            "10": 24
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\Area.cs": {
+      "IMMRequest.Domain.Area": {
+        "System.Int32 IMMRequest.Domain.Area::get_Id()": {
+          "Lines": {
+            "17": 12
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Area::get_Nombre()": {
+          "Lines": {
+            "18": 11
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<IMMRequest.Domain.Tema> IMMRequest.Domain.Area::get_Temas()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.Area::seteartemas(System.Collections.Generic.List`1<IMMRequest.Domain.Tema>)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.Area::agregartema(IMMRequest.Domain.Tema)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 68,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 68,
+              "EndOffset": 92,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 37,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void IMMRequest.Domain.Area::.ctor()": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.Area::.ctor(System.String)": {
+          "Lines": {
+            "12": 8,
+            "13": 8,
+            "14": 8,
+            "15": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\CampoAdicional.cs": {
+      "IMMRequest.Domain.CampoAdicional": {
+        "System.Int32 IMMRequest.Domain.CampoAdicional::get_Id()": {
+          "Lines": {
+            "12": 16
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.CampoAdicional::get_Nombre()": {
+          "Lines": {
+            "14": 36
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.CampoAdicional::get_Tipo()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicional::setearValor(System.Collections.Generic.List`1<IMMRequest.Domain.ValorEntero>)": {
+          "Lines": {
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicional::setearValor(System.Collections.Generic.List`1<IMMRequest.Domain.ValorFecha>)": {
+          "Lines": {
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicional::setearValor(System.Collections.Generic.List`1<IMMRequest.Domain.Valor>)": {
+          "Lines": {
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicional::setearValor(System.Boolean)": {
+          "Lines": {
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicional::setearRango(System.Int32,System.Int32)": {
+          "Lines": {
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicional::setearRango(System.DateTime,System.DateTime)": {
+          "Lines": {
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicional::setearRango(System.Collections.Generic.List`1<System.String>)": {
+          "Lines": {
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicional::.ctor()": {
+          "Lines": {
+            "8": 24,
+            "9": 24,
+            "10": 24
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\CampoAdicionalBooleano.cs": {
+      "IMMRequest.Domain.CampoAdicionalBooleano": {
+        "System.Void IMMRequest.Domain.CampoAdicionalBooleano::setearValor(System.Boolean)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicionalBooleano::.ctor(System.String)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicionalBooleano::.ctor()": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicionalBooleano::.ctor(System.String,System.Boolean)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\CampoAdicionalEntero.cs": {
+      "IMMRequest.Domain.CampoAdicionalEntero": {
+        "System.Boolean IMMRequest.Domain.CampoAdicionalEntero::dentroDeRango(System.Int32)": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 22,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 12,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean IMMRequest.Domain.CampoAdicionalEntero::dentroDeRango(System.Int32,System.Int32,System.Int32)": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": [
+            {
+              "Line": 51,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 9,
+              "EndOffset": 15,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 13,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void IMMRequest.Domain.CampoAdicionalEntero::setearValor(System.Collections.Generic.List`1<IMMRequest.Domain.ValorEntero>)": {
+          "Lines": {
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "63": 0,
+            "64": 0
+          },
+          "Branches": [
+            {
+              "Line": 56,
+              "Offset": 79,
+              "EndOffset": 5,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 26,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 79,
+              "EndOffset": 81,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean IMMRequest.Domain.CampoAdicionalEntero::validarCotas(System.Int32,System.Int32)": {
+          "Lines": {
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "72": 0
+          },
+          "Branches": [
+            {
+              "Line": 67,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 10,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void IMMRequest.Domain.CampoAdicionalEntero::setearRango(System.Int32,System.Int32)": {
+          "Lines": {
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0
+          },
+          "Branches": [
+            {
+              "Line": 75,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 11,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void IMMRequest.Domain.CampoAdicionalEntero::.ctor(System.String)": {
+          "Lines": {
+            "12": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicionalEntero::.ctor()": {
+          "Lines": {
+            "21": 8,
+            "22": 8,
+            "23": 8,
+            "24": 8,
+            "25": 8
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicionalEntero::.ctor(System.String,System.Collections.Generic.List`1<IMMRequest.Domain.ValorEntero>,System.Int32,System.Int32)": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "38": 0,
+            "40": 0
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 119,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 43,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 119,
+              "EndOffset": 121,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\CampoAdicionalFecha.cs": {
+      "IMMRequest.Domain.CampoAdicionalFecha": {
+        "System.Void IMMRequest.Domain.CampoAdicionalFecha::setearValor(System.Collections.Generic.List`1<IMMRequest.Domain.ValorFecha>)": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 79,
+              "EndOffset": 5,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 26,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 79,
+              "EndOffset": 81,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void IMMRequest.Domain.CampoAdicionalFecha::setearRango(System.DateTime,System.DateTime)": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 11,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean IMMRequest.Domain.CampoAdicionalFecha::validarCotas(System.DateTime,System.DateTime)": {
+          "Lines": {
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "66": 0
+          },
+          "Branches": [
+            {
+              "Line": 61,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 13,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean IMMRequest.Domain.CampoAdicionalFecha::dentroDeRango(System.DateTime)": {
+          "Lines": {
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0
+          },
+          "Branches": [
+            {
+              "Line": 70,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 72,
+              "Offset": 27,
+              "EndOffset": 43,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 12,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean IMMRequest.Domain.CampoAdicionalFecha::dentroDeRango(System.DateTime,System.DateTime,System.DateTime)": {
+          "Lines": {
+            "78": 0,
+            "79": 0,
+            "80": 0
+          },
+          "Branches": [
+            {
+              "Line": 79,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 18,
+              "EndOffset": 20,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 18,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void IMMRequest.Domain.CampoAdicionalFecha::.ctor(System.String)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicionalFecha::.ctor()": {
+          "Lines": {
+            "19": 8,
+            "20": 8,
+            "21": 8,
+            "22": 8
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAdicionalFecha::.ctor(System.String,System.Collections.Generic.List`1<IMMRequest.Domain.ValorFecha>,System.DateTime,System.DateTime)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "36": 0,
+            "38": 0
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 119,
+              "EndOffset": 19,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 43,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 119,
+              "EndOffset": 121,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\CampoAicionalTexto.cs": {
+      "IMMRequest.Domain.CampoAicionalTexto": {
+        "System.Collections.Generic.List`1<IMMRequest.Domain.Valor> IMMRequest.Domain.CampoAicionalTexto::get_valores()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<IMMRequest.Domain.Valor> IMMRequest.Domain.CampoAicionalTexto::get_valoresRango()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.CampoAicionalTexto::setearValor(System.Collections.Generic.List`1<IMMRequest.Domain.Valor>)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 79,
+              "EndOffset": 5,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 26,
+              "EndOffset": 51,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 79,
+              "EndOffset": 81,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Boolean IMMRequest.Domain.CampoAicionalTexto::dentroDeRango(System.String)": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 63,
+              "EndOffset": 5,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 33,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 63,
+              "EndOffset": 65,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void IMMRequest.Domain.CampoAicionalTexto::.ctor()": {
+          "Lines": {
+            "11": 16,
+            "12": 8,
+            "13": 8,
+            "14": 8,
+            "15": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\Solicitud.cs": {
+      "IMMRequest.Domain.Solicitud": {
+        "System.Int32 IMMRequest.Domain.Solicitud::get_Id()": {
+          "Lines": {
+            "17": 12
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Solicitud::get_nombre()": {
+          "Lines": {
+            "18": 7
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Solicitud::get_mail()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Solicitud::get_telefono()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Solicitud::get_Detalle()": {
+          "Lines": {
+            "21": 0
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Solicitud::get_Descripcion()": {
+          "Lines": {
+            "23": 0
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.Area IMMRequest.Domain.Solicitud::get_Area()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.Tema IMMRequest.Domain.Solicitud::get_Tema()": {
+          "Lines": {
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime IMMRequest.Domain.Solicitud::get_fechaIngreso()": {
+          "Lines": {
+            "27": 0
+          },
+          "Branches": []
+        },
+        "IMMRequest.Domain.TipoDeTema IMMRequest.Domain.Solicitud::get_Tipo()": {
+          "Lines": {
+            "29": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<IMMRequest.Domain.CampoAdicional> IMMRequest.Domain.Solicitud::get_CamposAdicionales()": {
+          "Lines": {
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Solicitud::get_Estado()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean IMMRequest.Domain.Solicitud::validarEmail(System.String)": {
+          "Lines": {
+            "34": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 12,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 54,
+              "EndOffset": 71,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 74,
+              "EndOffset": 76,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 85,
+              "EndOffset": 87,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 128,
+              "EndOffset": 130,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 128,
+              "EndOffset": 136,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 85,
+              "EndOffset": 137,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 74,
+              "EndOffset": 138,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 30,
+              "EndOffset": 139,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void IMMRequest.Domain.Solicitud::CambiarEstado(System.String)": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 76,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 76,
+              "EndOffset": 89,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void IMMRequest.Domain.Solicitud::.ctor()": {
+          "Lines": {
+            "9": 8,
+            "10": 8,
+            "11": 8,
+            "12": 8,
+            "13": 8,
+            "14": 8,
+            "15": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\Tema.cs": {
+      "IMMRequest.Domain.Tema": {
+        "System.Int32 IMMRequest.Domain.Tema::get_Id()": {
+          "Lines": {
+            "13": 14
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Tema::get_Nombre()": {
+          "Lines": {
+            "14": 14
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<IMMRequest.Domain.TipoDeTema> IMMRequest.Domain.Tema::get_Tipos()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.Tema::AgregarTipo(IMMRequest.Domain.TipoDeTema)": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "29": 0
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 68,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 68,
+              "EndOffset": 92,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 37,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void IMMRequest.Domain.Tema::.ctor()": {
+          "Lines": {
+            "8": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\TipoDeTema.cs": {
+      "IMMRequest.Domain.TipoDeTema": {
+        "System.Int32 IMMRequest.Domain.TipoDeTema::get_ID()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.TipoDeTema::get_nombre()": {
+          "Lines": {
+            "14": 15
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<IMMRequest.Domain.CampoAdicional> IMMRequest.Domain.TipoDeTema::get_Campos()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean IMMRequest.Domain.TipoDeTema::get_Activo()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.TipoDeTema::AgregarCampos(System.Collections.Generic.List`1<IMMRequest.Domain.CampoAdicional>)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 162,
+              "EndOffset": 36,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 65,
+              "EndOffset": 67,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 65,
+              "EndOffset": 105,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 162,
+              "EndOffset": 164,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void IMMRequest.Domain.TipoDeTema::.ctor()": {
+          "Lines": {
+            "8": 10,
+            "9": 10,
+            "10": 10,
+            "11": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\Valor.cs": {
+      "IMMRequest.Domain.Valor": {
+        "System.Int32 IMMRequest.Domain.Valor::get_id()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.String IMMRequest.Domain.Valor::get_texto()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.Valor::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.Valor::.ctor(System.Int32,System.String)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\ValorEntero.cs": {
+      "IMMRequest.Domain.ValorEntero": {
+        "System.Int32 IMMRequest.Domain.ValorEntero::get_id()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 IMMRequest.Domain.ValorEntero::get_valor()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.ValorEntero::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.ValorEntero::.ctor(System.Int32,System.Int32)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\diego\\Desktop\\facultad\\DA2\\Obligatorio-1-215193\\IMMRequest.Domain\\ValorFecha.cs": {
+      "IMMRequest.Domain.ValorFecha": {
+        "System.Int32 IMMRequest.Domain.ValorFecha::get_id()": {
+          "Lines": {
+            "17": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime IMMRequest.Domain.ValorFecha::get_fecha()": {
+          "Lines": {
+            "18": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.ValorFecha::.ctor()": {
+          "Lines": {
+            "7": 0,
+            "8": 0,
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Void IMMRequest.Domain.ValorFecha::.ctor(System.Int32,System.DateTime)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

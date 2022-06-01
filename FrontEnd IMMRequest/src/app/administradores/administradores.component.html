@@ -1,0 +1,88 @@
+<mat-card>
+    <div class="example-container">
+      <div *ngIf="!showAdd">
+        <button mat-mini-fab color="primary" (click)="changeShowAdd()">+</button>
+      </div>
+
+      <div *ngIf="showAdd">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <mat-card-title>Crear Admin</mat-card-title>
+            </mat-card-header>
+            <mat-card-content>
+              <div class="add-admin-container">
+                <mat-form-field><input matInput placeholder="Nombre" [(ngModel)]="Nombre" ></mat-form-field>
+                <br>
+                <mat-form-field><input matInput placeholder="Email" [(ngModel)]="Mail" ></mat-form-field>
+                <br>
+                <mat-form-field> <input matInput placeholder="Contraseña" [(ngModel)]="Password" ></mat-form-field>
+              </div>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-raised-button color="primary" (click)="addAdmin()">Agregar</button>
+            </mat-card-actions>
+          </mat-card>
+      </div>
+      <br>
+      <mat-table [dataSource]="dataSource"
+        class="mat-elevation-z8">
+        <!-- Id Column -->
+        <ng-container matColumnDef="id">
+          <mat-header-cell *matHeaderCellDef> Id </mat-header-cell>
+          <mat-cell *matCellDef="let element"(click)="showModifier(element)" > {{element.id}} </mat-cell>
+        </ng-container>
+  
+        <!-- Nombre Column -->
+        <ng-container matColumnDef="nombre">
+          <mat-header-cell *matHeaderCellDef> Nombre </mat-header-cell>
+          <mat-cell *matCellDef="let element" (click)="showModifier(element)" > {{element.nombre}} </mat-cell>
+        </ng-container>
+  
+        <!-- Email Column -->
+        <ng-container matColumnDef="email">
+          <mat-header-cell *matHeaderCellDef> Email </mat-header-cell>
+          <mat-cell *matCellDef="let element" (click)="showModifier(element)"> {{element.email}} </mat-cell>
+        </ng-container>
+  
+        <!-- Password Column -->
+        <ng-container matColumnDef="password">
+            <mat-header-cell *matHeaderCellDef> Password </mat-header-cell>
+            <mat-cell *matCellDef="let element" (click)="showModifier(element)"> {{element.contrasena}} </mat-cell>
+          </ng-container>
+          
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+      </mat-table>
+    </div>
+   
+   
+  </mat-card>
+
+  <div class="modificador" *ngIf="display">
+    <mat-card>
+        <h4>Nombre: {{admin.nombre}}</h4>
+        <h4>Mail: {{admin.email}}</h4>
+        <h4>Password: {{admin.contrasena}}</h4>
+        <br>
+        <mat-form-field>
+            <input matInput placeholder="Nombre" [(ngModel)]="Nombre">
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field>
+            <input matInput placeholder="Mail" [(ngModel)]="Mail">
+        </mat-form-field>
+        <br>
+        <br>
+        <mat-form-field>
+            <input matInput placeholder="Password" [(ngModel)]="Password">
+        </mat-form-field>
+        <br>
+        <button mat-raised-button color="primary" (click)="modificarAdmin()">Modificar</button>
+        <br>
+        <br>
+        <button mat-raised-button color="warn" (click)="deleteAdministrador(admin.id)">Eliminar</button>
+    </mat-card>
+
+  </div>
+  

@@ -1,0 +1,42 @@
+<mat-card>
+    <div class="example-container">
+      <form class="example-container">
+        <mat-form-field>
+          <input matInput placeholder="Email Cliente" [(ngModel)]="listFilter"
+            name="name" />
+        </mat-form-field>
+        <br>
+        <label>
+          Filtrado por el Cliente : {{listFilter | lowercase}}
+        </label>
+      </form>
+      <mat-slide-toggle (click)="onoffChange()">OFF/ON</mat-slide-toggle>
+      <br>
+      <label>{{onoff?"Encendido":"Apagado"}}</label>
+      <br>
+      <mat-form-field color="accent">
+        <mat-label>Desde</mat-label>
+        <input matInput [matDatepicker]="picker1" [(ngModel)]="from">
+        <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+        <mat-datepicker #picker1></mat-datepicker>
+      </mat-form-field>
+      <br>
+      <mat-form-field color="accent">
+        <mat-label>Hasta</mat-label>
+        <input matInput [matDatepicker]="picker2" [(ngModel)]="to">
+        <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+        <mat-datepicker #picker2></mat-datepicker>
+      </mat-form-field>
+      <br>
+      <button mat-raised-button color="primary" class="addbutton" (click)="showreporte = true">Crear Reporte</button>
+
+      <div *ngIf="showreporte">
+        <mat-nav-list>
+          <a mat-list-item *ngFor="let linea of crearReporte()"> - {{ linea }} </a>
+       </mat-nav-list>
+      </div>
+     
+
+    </div>
+  </mat-card>
+  

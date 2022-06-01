@@ -1,0 +1,12 @@
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\Importador\bin\Debug\netstandard2.0\Importador.deps.json
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\Importador\bin\Debug\netstandard2.0\Importador.dll
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\Importador\bin\Debug\netstandard2.0\Importador.pdb
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\Importador\bin\Debug\netstandard2.0\IMMRequest.Domain.dll
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\Importador\bin\Debug\netstandard2.0\IMMRequest.Domain.pdb
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\Importador\obj\Debug\netstandard2.0\Importador.csprojAssemblyReference.cache
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\Importador\obj\Debug\netstandard2.0\Importador.csproj.CoreCompileInputs.cache
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\Importador\obj\Debug\netstandard2.0\Importador.AssemblyInfoInputs.cache
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\Importador\obj\Debug\netstandard2.0\Importador.AssemblyInfo.cs
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\Importador\obj\Debug\netstandard2.0\Importador.csproj.CopyComplete
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\Importador\obj\Debug\netstandard2.0\Importador.dll
+C:\Users\diego\Desktop\facultad\DA2\Obligatorio-1-215193\Importador\obj\Debug\netstandard2.0\Importador.pdb

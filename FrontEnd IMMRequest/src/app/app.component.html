@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+    <span>IMMRequest application</span>
+    <span class="example-spacer"></span>
+    <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+    <button mat-button ngShow="isNotLogged()" [routerLink]="['/login']">Login</button>
+</mat-toolbar>
+
+<mat-menu #menu="matMenu">
+  <button mat-menu-item [routerLink]="['']">Inicio</button>
+  <div *ngIf="isLogged()"> 
+      <button mat-menu-item ngShow="true" [routerLink]="['/menuAdmins']" >Administrador</button>
+    </div>
+</mat-menu>
+
+<router-outlet></router-outlet>

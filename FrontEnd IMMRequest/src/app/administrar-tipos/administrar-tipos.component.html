@@ -1,0 +1,173 @@
+<mat-accordion>
+
+    <!-- Agregar Tipo -->
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+            Agregar Tipo
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+  
+      <div class="example-container"> 
+        
+            <h3>Agregar Tipo</h3>
+            <mat-form-field>
+                    <mat-label>Area</mat-label>
+                    <mat-select [(ngModel)]="selectedArea">
+                      <mat-option  *ngFor="let area of dataSource" [value]="area">{{area.nombre}}</mat-option>
+                    </mat-select> 
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <mat-label>Tema</mat-label>
+                        <mat-select [(ngModel)]="selectedTema" ng>
+                            <mat-option  *ngFor="let tema of getTemas(selectedArea)" [value]="tema">
+                            {{tema.nombre}}
+                            </mat-option>
+                        </mat-select>
+            </mat-form-field>
+            <br>
+            <mat-form-field>
+                <input type="text" matInput placeholder="Nombre" [(ngModel)]="nombreTipo">
+            </mat-form-field>
+            <br>
+            <mat-slide-toggle [(ngModel)]="tipoActivo"></mat-slide-toggle>
+            <label>{{tipoActivo?"   Activo":"   InActivo"}}</label>
+    
+    
+            <h4>Campos Adicionales</h4>
+            <mat-accordion>
+                <mat-expansion-panel>
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            Campo Adicional Texto
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+                    <!-- Codigo Agregar Campo Texto-->
+                    <mat-form-field><input matInput placeholder="Nombre" [(ngModel)]="nombreCampo" ></mat-form-field>
+                    <br>
+                    <mat-form-field><input matInput placeholder="Valor campo" [(ngModel)]="valortexto" ></mat-form-field>
+                    
+                    <button mat-mini-fab color="primary"  (click)="agregarValor()">+</button>
+                    <br>
+                    <mat-list>
+                        <div mat-subheader>Valores</div>
+                        <mat-list-item *ngFor="let valor of listaValoresTexto">
+                          <div mat-line>{{valor}}</div>
+                        </mat-list-item>
+                    </mat-list>
+                    <button mat-raised-button color="primary" class="addbutton" (click)="agregarCampoAdicionalTexto()">Agregar</button>
+                    
+    
+                </mat-expansion-panel>
+    
+                <mat-expansion-panel (opened)="panelOpenState = true"
+                                (closed)="panelOpenState = false">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Campo Adicional Fecha
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                    <!-- Codigo Agregar Campo Fecha-->
+                    <mat-form-field><input matInput placeholder="Nombre" [(ngModel)]="nombreCampo" ></mat-form-field>
+                    <br>
+                    <mat-form-field color="accent">
+                        <mat-label>Fecha Minima</mat-label>
+                        <input matInput [matDatepicker]="picker1" [(ngModel)]="cotaInferior">
+                        <mat-datepicker-toggle matSuffix [for]="picker1"></mat-datepicker-toggle>
+                        <mat-datepicker #picker1></mat-datepicker>
+                      </mat-form-field>
+                      <br>
+                      <mat-form-field color="accent">
+                        <mat-label>Fecha Maxima</mat-label>
+                        <input matInput [matDatepicker]="picker2" [(ngModel)]="cotaSuperior">
+                        <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+                        <mat-datepicker #picker2></mat-datepicker>
+                      </mat-form-field>
+                      
+                    <button mat-raised-button color="primary" class="addbutton" (click)="agregarCampoAdicionalFecha()">Agregar</button>
+                </mat-expansion-panel>
+    
+                <mat-expansion-panel (opened)="panelOpenState = true"
+                                (closed)="panelOpenState = false">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Campo Adicional Entero
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                    <!-- Codigo Agregar Campo Entero-->
+                    <mat-form-field><input matInput placeholder="Nombre" [(ngModel)]="nombreCampo" ></mat-form-field>
+                    <br>
+                    <mat-form-field>
+                    <mat-label>Minimo</mat-label>
+                    <input matInput type="number"  min="0">
+                    </mat-form-field>
+                    <br>
+                    <mat-form-field>
+                    <mat-label>Maximo</mat-label>
+                    <input matInput type="number"  min="00"> 
+                    </mat-form-field>
+                    <br>   
+                    <button mat-raised-button color="primary" class="addbutton" (click)="agregarCampoAdicionalEntero()">Agregar</button>
+                </mat-expansion-panel>
+    
+                <mat-expansion-panel (opened)="panelOpenState = true"
+                                (closed)="panelOpenState = false">
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Campo Adicional Booleano
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                    <!-- Codigo Agregar Campo Booleano-->
+                    <mat-form-field><input matInput placeholder="Nombre" [(ngModel)]="nombreCampo" ></mat-form-field>
+                    <br>
+                    <button mat-raised-button color="primary" class="addbutton" (click)="agregarCampoAdicionalBooleano()">Agregar</button>
+                </mat-expansion-panel>
+            </mat-accordion>
+    
+            <h4>Cantidad de Campos Adicionales: {{camposAdicionales.length}}</h4>
+            <button mat-raised-button color="primary" class="addbutton" (click)="agregarTipo()">Agregar Tipo</button>
+        
+    
+    </div>
+    </mat-expansion-panel>
+
+    <!-- Modificar Tipo -->
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+            Modificar Tipo
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+       <!-- Codigo Modificar Tipo -->
+       <div class="example-container"> 
+       <mat-form-field>
+            <mat-label>Area</mat-label>
+            <mat-select [(ngModel)]="selectedArea">
+            <mat-option  *ngFor="let area of dataSource" [value]="area">{{area.nombre}}</mat-option>
+            </mat-select> 
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+            <mat-label>Tema</mat-label>
+            <mat-select [(ngModel)]="selectedTema" ng>
+                <mat-option  *ngFor="let tema of getTemas(selectedArea)"  [value]="tema" (click)="temaSeleccionado()">{{tema.nombre}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <br>
+        <mat-form-field>
+            <mat-label>Tipo</mat-label>
+            <mat-select [(ngModel)]="selectedTipo" ng>
+                <mat-option  *ngFor="let tipo of listTipo" [value]="tipo" (click)="tipoSeleccionado()">{{tipo.nombre}}</mat-option>
+                
+            </mat-select>
+        </mat-form-field>
+        <br>
+        <mat-slide-toggle [(ngModel)]="tipoActivo"></mat-slide-toggle>
+        <label>{{tipoActivo?"   Activo":"   InActivo"}}</label>
+        <br>
+        <button mat-raised-button color="primary" class="addbutton" (click)="modifyTipo()" >Modificar Tipo</button>
+       </div>
+    </mat-expansion-panel>
+  </mat-accordion>

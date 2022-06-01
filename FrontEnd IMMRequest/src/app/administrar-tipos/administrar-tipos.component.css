@@ -1,0 +1,30 @@
+.example-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 600px;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
+
+  mat-card-title,mat-card-content{
+    display: flex;
+    justify-content: center;
+    
+}
+
+:host{
+    display: flex;
+    justify-content: center;
+    min-width: 900px;
+    margin: 100px 0;
+}
+
+
+.addbutton{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

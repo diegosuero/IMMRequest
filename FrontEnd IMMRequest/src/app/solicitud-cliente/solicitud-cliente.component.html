@@ -1,0 +1,95 @@
+
+
+  <mat-accordion>
+
+    <!-- Buscar Solicitud -->
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Buscar Solicitud
+        </mat-panel-title>
+        <mat-panel-description>
+          Buscar solicitud por Numero de Solicitus
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+  
+      <mat-card class="example-card">
+        <mat-card-header>
+            <mat-card-title>Buscar Solicitud</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="add-admin-container">
+            <mat-form-field><input matInput placeholder="Numero Solicitud" [(ngModel)]="nombreCliente" (keyup)="onKeySolicitud($event)"></mat-form-field>
+          </div>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary" (click)="getSolicitud()" >Buscar</button>
+        </mat-card-actions>
+      </mat-card>
+      <div *ngIf="showSolicitud">
+        <mat-list role="list" >
+          <mat-list-item role="listitem">Area: {{solicitud.area}}</mat-list-item>
+          <mat-list-item role="listitem">Tema: {{solicitud.tema}}</mat-list-item>
+          <mat-list-item role="listitem">Tipo: {{solicitud.tipo}}</mat-list-item>
+          <mat-list-item role="listitem">Nombre: {{solicitud.nombre}}</mat-list-item>
+          <mat-list-item role="listitem">Mail: {{solicitud.mail}}</mat-list-item>
+          <mat-list-item role="listitem">Telefeno: {{solicitud.telefono}}</mat-list-item>
+          <mat-list-item role="listitem">Estado: {{solicitud.estado}}</mat-list-item>
+          <mat-list-item role="listitem">Detalle: {{solicitud.detalle}}</mat-list-item>
+          <mat-list-item role="listitem">Descripcion: {{solicitud.descipcion}}</mat-list-item>
+          <mat-list-item role="listitem">Fecha Ingreso: {{solicitud.fechaIngreso}}</mat-list-item>
+
+        </mat-list>
+
+      </div>
+    </mat-expansion-panel>
+
+    <!-- Agregar Solicitud -->
+    <mat-expansion-panel (opened)="panelOpenState = true && showSolicitud=false"
+                         (closed)="panelOpenState = false">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Agregar Solicitud
+        </mat-panel-title>
+        <mat-panel-description>
+          Agregar Nueva Solicitud
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+       <!-- Codigo Agregar Solicitud -->
+       <mat-form-field><input matInput placeholder="Nombre" [(ngModel)]="nombreCliente" ></mat-form-field>
+       <br>
+       <mat-form-field><input matInput placeholder="Mail" [(ngModel)]="mailCliente" ></mat-form-field>
+       <br>
+       <mat-form-field><input matInput placeholder="Telefono" [(ngModel)]="telefonoCliente" ></mat-form-field>
+       <br>
+      <mat-form-field>
+        <mat-label>Area</mat-label>
+        <mat-select [(ngModel)]="selectedArea">
+        <mat-option  *ngFor="let area of dataSourceAreas" [value]="area">{{area.nombre}}</mat-option>
+        </mat-select> 
+      </mat-form-field>
+      <br>
+      <mat-form-field>
+          <mat-label>Tema</mat-label>
+          <mat-select [(ngModel)]="selectedTema" ng>
+              <mat-option  *ngFor="let tema of getTemas(selectedArea)"  [value]="tema" (click)="temaSeleccionado()">{{tema.nombre}}</mat-option>
+          </mat-select>
+      </mat-form-field>
+      <br>
+      <mat-form-field>
+          <mat-label>Tipo</mat-label>
+          <mat-select [(ngModel)]="selectedTipo" ng>
+              <mat-option  *ngFor="let tipo of listTipo | tipoActivos" [value]="tipo" (click)="seleccionotipo = !seleccionotipo">{{tipo.nombre}}</mat-option>
+          </mat-select>
+      </mat-form-field>
+      <br>
+       <mat-form-field><input matInput placeholder="Detalle" [(ngModel)]="detalleCliente" ></mat-form-field>
+       <br>
+       <div *ngIf="seleccionotipo">
+        <button mat-raised-button color="primary" class="addbutton" (click)="crearSolicitud()">Crear Solicitud</button>
+       </div>
+       
+    </mat-expansion-panel>
+  </mat-accordion>
+
+  

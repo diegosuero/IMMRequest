@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Areas>
+	<Area>
+		<Nombre>Area 1</Nombre>
+		<Temas>
+			<Tema>
+				<Nombre>Tema 11</Nombre>
+				<Tipos>
+					<tipo>
+						<Nombre>Tipo 111</Nombre>
+						<Activo>true</Activo>
+					</tipo>
+					<tipo>
+						<Nombre>Tipo 112</Nombre>
+						<Activo>true</Activo>
+					</tipo>
+					<tipo>
+						<Nombre>Tipo 113</Nombre>
+						<Activo>true</Activo>
+					</tipo>
+				</Tipos>
+			</Tema>
+			<Tema>
+				<Nombre>Tema 12</Nombre>
+				<Tipos>
+					<tipo>
+						<Nombre>Tipo 111</Nombre>
+						<Activo>true</Activo>
+					</tipo>
+					<tipo>
+						<Nombre>Tipo 112</Nombre>
+						<Activo>true</Activo>
+					</tipo>
+					<tipo>
+						<Nombre>Tipo 113</Nombre>
+						<Activo>true</Activo>
+					</tipo>
+				</Tipos>
+			</Tema>
+			<Tema>
+				<Nombre>Tema 13</Nombre>
+				<Tipos>
+					<tipo>
+						<Nombre>Tipo 111</Nombre>
+						<Activo>false</Activo>
+					</tipo>
+					<tipo>
+						<Nombre>Tipo 112</Nombre>
+						<Activo>true</Activo>
+					</tipo>
+					<tipo>
+						<Nombre>Tipo 113</Nombre>
+						<Activo>true</Activo>
+					</tipo>
+				</Tipos>
+			</Tema>
+		</Temas>
+	</Area>
+</Areas>  

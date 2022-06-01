@@ -1,0 +1,23 @@
+<mat-card class="example-card">
+    <mat-card-header>
+        <mat-card-title>Menu</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <button mat-raised-button color="primary" [routerLink]="['/reportes']" >Reportes</button>
+    </mat-card-content>
+    <mat-card-content>
+        <button mat-raised-button color="primary" [routerLink]="['/administradores']">Administradores</button>
+    </mat-card-content>
+    <mat-card-content>
+        <button mat-raised-button color="primary"[routerLink]="['/administrarTipos']" >Administrar Tipos</button>
+    </mat-card-content>
+    <mat-card-content>
+        <button mat-raised-button color="primary" [routerLink]="['/importarDatos']">Importar Datos</button>
+    </mat-card-content>
+    <mat-card-content>
+        <button mat-raised-button color="primary" [routerLink]="['/solicitudAdministradores']">Solicitudes</button>
+    </mat-card-content>
+    <mat-card-content>
+        <button mat-raised-button color="primary" (click)="logOff()">Cerrar Sesion</button>
+    </mat-card-content>
+  </mat-card>
